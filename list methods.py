@@ -25,7 +25,6 @@ print(a)
 
 
 a=['abc',100,200]
-a[1]='ashish'
 a.pop()
 print(a)
 

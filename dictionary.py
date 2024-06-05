@@ -10,7 +10,7 @@ print(a)
 
 
 for i in a:
-    print(f"{i}={a[i]}")
+    print(f"{i}={a[i]}") 
 
 print(a.keys())   
 print(a.values())

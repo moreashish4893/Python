@@ -2,12 +2,6 @@
 
 #function with no argument no return value
 
-#function with argument no return value
-
-#function with no argument but return value
-
-#function with argument and return value
-
 def add():
     a=10
     b=20
@@ -17,6 +11,9 @@ add()
 
 
 
+
+#function with argument no return value
+
 def add(a,b):
     print(f'addition of {a} and {b} is :',a+b)
 a=10
@@ -25,6 +22,8 @@ add(a,b)
 
 
 
+
+#function with no argument but return value
 
 def add():
     a=10
@@ -39,6 +38,9 @@ print(sum)
 
 
 
+
+#function with argument and return value
+
 def add(a,b):
 
     return a+b
@@ -46,7 +48,6 @@ def add(a,b):
 
 sum=add(8,9)
 print(sum)
-
 
 
 def add(a,b):

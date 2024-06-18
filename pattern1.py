@@ -15,10 +15,10 @@ while row<=101:
     
 
 #reverse pattern
-'''rows=5
+rows=5
 while rows>0:
     print("*" * rows)
-    rows -=1'''
+    rows -=1
 
 
 

@@ -55,12 +55,12 @@ import random as r
 
 
 
-##print(r.randint(2,6))
-##print(r.randint(6,2))
-##print(r.randint(6,6))
+print(r.randint(2,6))
+#print(r.randint(6,2))
+print(r.randint(6,6))
 
 
-print(r.uniform(2,5))
+'''print(r.uniform(2,5))
 
 l=[11,22,33,44,'ashish']
 
@@ -70,7 +70,7 @@ print(r.choice(l))
 l=['ashish','abhishek','sanket']
 
 r.shuffle(l)
-print(l)
+print(l)'''
 
 
 

@@ -22,7 +22,7 @@ names=['ashish','abhishek','vishal','saud','robert','anuj','rajith']
 print(random_name)'''
 
 print(random.choice(names))
-
+    
 print(random.choice(a))
 
 print(random.choices(a,k=3))

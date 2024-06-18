@@ -8,7 +8,7 @@ for i in a:
     else:
         c1.append(i)
 print(b)
-print(c1)
+print(c1)    
 for i in b:
     c2=0
     for j in c1:

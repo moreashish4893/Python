@@ -6,7 +6,7 @@ while i<len(a):
         for j in range(2,a[i],1):
             if a[i]%j==0:
                 break
-        else:
+        else:  
             b.append(a[i])
     i+=1
 print(b)

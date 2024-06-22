@@ -29,15 +29,16 @@ for i in a:
 
 
 
-b="i am ashish more"
+b="iamashishmore"
 c=[]
-d=list(b)
  
-for j in d:
+for j in b:
      if j not in "aeiou":
           c.append(j)
-print(c)
-          
+#print(c)
+print("".join(c))
+
+       
           
           
 

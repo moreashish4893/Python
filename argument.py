@@ -137,7 +137,7 @@
 
 
 
-a=10
+'''a=10
 y=5
 def myfun():
     #global a
@@ -145,7 +145,7 @@ def myfun():
     y=a
     print(y,a) # 2,2
 myfun()
-print(y,a)#5,10
+print(y,a)#5,10'''
     
 
 
@@ -176,14 +176,14 @@ print(y,a)#5,10
 
 
 
-a=10
+'''a=10
 y=5
 def myfun():
     y=a
     a=2
     print(y,a)  #Error
 myfun()
-print(y,a) 
+print(y,a) '''
 
 
 

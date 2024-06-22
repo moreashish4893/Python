@@ -3,37 +3,37 @@
 ##
 ##
 ##def demo():
-##    print('ashish')
-##    demo()
+ ##   print('ashish')
+ ##   demo()
 ##
 ##demo()
 ##
-##i=0
-##def demo():
-##    glpbal i
-##    i=i+1
-##    print('ashish',i)
-##    demo()
+'''i=0
+def demo():
+    global i
+    i=i+1
+    print('ashish',i)
+    demo()
 ##
-##demo()
+demo()''' 
 ##
 ##
-##import sys
+import sys
 ##
-##print(sys.getrecursionlimit())
+print(sys.getrecursionlimit())
 ##
-##sys.setrecursionlimit(200)   # to set recursion limit
+sys.setrecursionlimit(10)   # to set recursion limit
 ##
-##print(sys.getrecursionlimit())
+print(sys.getrecursionlimit())
 ##
-##i=0
-##def demo():
-##    global i
-##    i=i+1
-##    print('ashish',i)
-##    demo()
+i=0
+def demo():
+    global i
+    i=i+1
+    print('ashish',i)
+    demo()
 ##
-##demo()
+demo()
 ##
 
 
@@ -50,7 +50,7 @@
 
 
 
-def fibo(n):
+'''def fibo(n):
     if n==1:
         return 0
     if n==2:
@@ -58,12 +58,12 @@ def fibo(n):
     return fibo(n-2)+fibo(n-1)
 
 n=int(input('Enter the number of terms: ')) #9
-print(fibo(n))
+print(fibo(n))'''
 
 
 
 
- '''Questions : Print your name 10 times without using loop
+'''Questions : Print your name 10 times without using loop
 
  print factorial of number using recursion
 

@@ -1,6 +1,6 @@
 # Modules and Packages
 # module is a file containing python definition,functions and variables
-# it is a collection of function and classes
+# it is a collection of functions and classes
 
 # Types of module :
 #1) Built in module

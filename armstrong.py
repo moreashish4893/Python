@@ -1,4 +1,5 @@
 n=8208
+#n=int(input("Enter a number:"))  
 n1=n
 l=len(str(n))
 s=0
@@ -8,8 +9,9 @@ while n!=0:
     n =n//10
 
 if n1 ==s:
-    print("This is an Armstrong number")
+    print(f"{n1} is an Armstrong number")
 else:
-    print("Not an armstrong number")
+    print(f"{n1} is not an armstrong number")
     
 
+  

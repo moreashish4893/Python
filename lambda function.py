@@ -105,6 +105,9 @@ print(filter_object)
 print(list(filter_object))
 print(list(filter_object))'''
 
+
+#################################################################################
+
 '''number=[11,22,33,44,66]
 
 def even_fun(x):
@@ -115,6 +118,7 @@ filter_object = list(filter(even_fun,number))
 print(filter_object) 
 print(filter_object) '''
 
+##################################################################################
 
 '''number=[2,3,7,9,11,18,15]
 
@@ -137,32 +141,53 @@ print(filter_object)    '''
 '''n=[1,2,3,4,5,6]
 
 def square(x):
-    return x*x
+    return x*x                          #  square
 y=list(map(square,n))
 print(y)'''
 
+###################################################
 
-
-'''a=[1,2,3,4,5,6]
+a=[1,2,3,4,5,6]
 def factorial(n):
     for i in range(1,n):
-        n=n*i
+        n=n*i                                       # factorial
     return n
 b=list(map(factorial,a))
-print(b) '''
+print(b) 
 
-
+####################################################################################
 
 
 a=[1,3,5]
 def fact(n):
-    if(n==0 or n==1):
+    if(n==0 or n==1):                           # factorial
         return 1
     else:
         return n*fact(n-1)
 b=list(map(fact,a))
     
 print(b)
+
+################################################################################
+
+def fact(n):
+    fact=1
+    for i in range(1,n+1):                    # using for
+        fact=fact*i
+    print(fact)
+
+fact(5)    
+
+###############################################################################
+
+
+n=4            
+fact=1
+i=1
+while i<=n:                                  # using while
+    fact=fact*i
+    i+=1
+print(fact)
 
 
 

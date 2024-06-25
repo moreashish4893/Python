@@ -7,3 +7,12 @@ elif b>a and b>c:
     print(b,"is greater")
 else:
         print(c,"is greater")
+
+
+
+
+
+
+
+
+

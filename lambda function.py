@@ -68,7 +68,7 @@ print(add(x=3,y=9))'''
 
 ######################################################################################################################
 
-'''A function which takes other function as argument is called as higher order function.
+'''A function which takes other function as an argument is called as higher order function.
 
 Types of higher order function :
 1) filter()

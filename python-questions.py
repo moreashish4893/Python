@@ -4,6 +4,7 @@
 ##user=input("enter name ")
 ##print(user)
 
+ 
 
 ##2)create a string and print the last element
 

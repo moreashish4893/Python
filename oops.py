@@ -21,7 +21,7 @@
 #     roll_no=444
 
 
-#     def demo(self):   #   self is a default parameter that represent instance of class
+#     def demo(self):                  #   self is a default parameter that represent instance of class
 #         name="ashish"
 #         print(name)
 
@@ -103,7 +103,7 @@
 # ######################################################################################################
 
 
-#                                    # Local Variable
+#                                     Local Variable
 
 
 # class A:
@@ -127,7 +127,7 @@
 
 # ###################################################################################################
   
-#                                #  Instance Variable
+#                                  Instance Variable
 
 # class A:
 #     def show(self,name,age,salary):
@@ -213,7 +213,7 @@
 
 
 
-#                        # Constructor
+#                                     Constructor
 
 
 # # Constructor : __init__ method runs automatically when object is created which is used to initiliaze the instance object.
@@ -265,22 +265,22 @@
 ##############################################################################################################
 
 
-class A:
-    def __init__(s,name,age,salary):
-        s.name=name
-        s.age=age
-        s.salary=salary
+# class A:
+#     def __init__(s,name,age,salary):
+#         s.name=name
+#         s.age=age
+#         s.salary=salary
 
-    def display(s):
-        print(s.name,s.age,s.salary)
+#     def display(s):
+#         print(s.name,s.age,s.salary)
 
 
-    def __str__(s):                           #  runs when object get printed
-        return s.name +" "+str(s.age)+" "+str(s.salary)
+#     def __str__(s):                           #  runs when object get printed
+#         return s.name +" "+str(s.age)+" "+str(s.salary)
 
-a=A("Ashish",28,90000)
-a.display() 
-print(a)      
+# a=A("Ashish",28,90000)
+# a.display() 
+# print(a)      
 
 #####################################################################################################
 
@@ -311,7 +311,7 @@ print(a)
 
 ################################################################################################################
 
-                                           # Destructor
+ #                                          Destructor
 
  # desctructor is a member method of a class...
  # it deletes the memory of object..
@@ -341,6 +341,11 @@ print(a)
 # a.show()
 # #a.show()
 # del a
+#a.show()
+
+
+#########################################################################################################################
+
       
 
 

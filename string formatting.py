@@ -16,3 +16,4 @@ print(f"My name is {name} , my age is {age} and i earn {marks} marks")
 
 
 
+ 

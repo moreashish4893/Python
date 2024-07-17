@@ -176,7 +176,7 @@
 ####################################################################################################################
 
                          # 2) overloading
-# more than one function with the same name defined in same class and call with different parameter
+# more than one function with the same name defined in same class and calls with different parameter
 # but python does not support method overloading
 
 # class A:
@@ -252,7 +252,10 @@
 # ##except:
 # ##    print('Exception handled')
 # ##print('java developer')
-# ##
+
+
+
+
 
 ##print('python developer')
 # ##a=[11,22,3,64,35]
@@ -261,7 +264,11 @@
 # ##except:
 # ##    print('list index out of range')
 # ####print('java developer')
-# ##
+
+
+
+
+
 
 ##print('python developer')
 # ##a=[11,22,3,64,35]
@@ -271,6 +278,11 @@
 # ##    print(e)
 # ####print('java developer')##
 
+
+
+
+
+
 ##print('python developer')
 # ##try:
 # ##    a=int(input('Enter the number: '))
@@ -278,10 +290,14 @@
 # ##    print(a/b)##except Exception as e:
 # ##    print(e)
 # ##print('Hello')
-# ##
+
+
+
+
+
 ##k=[]
 # ##try:
-# ##    print('thane')##    
+# ##    print('thane')   
 # #print(9/0)
 # ##    #print(abc)
 # ##    #print(k[2])
@@ -299,6 +315,9 @@
 # ####except:
 # ##    print('Exception handeled')   # default except block must be last####    
 
+
+
+
 ##try:
 # ##    print('thane')
 # ##    try:
@@ -312,6 +331,9 @@
 # ##        print('value Error')
 # ##except:
 # ##    print('Exception handeled outer try')##    
+
+
+
 
 #k=[]
 # ##try:
@@ -327,7 +349,12 @@
 # ##        print('value Error')
 # ##except:
 # ##    print('Exception handeled outer try')##
-#      
+
+
+
+
+
+
 
 ##k=[11,22,33]
 # ##try:
@@ -347,6 +374,10 @@
 # ##    print('when exception is not occured')##
 
 
+
+
+
+
 ##k=[]
 # ##try:
 # ##    print(k[1])
@@ -356,7 +387,7 @@
 # ##        print(e)
 # ##    print('mumbai')
 # ##    try:
-# ##        print(int('rajesh'))
+# ##        print(int('ashish'))
 # ##    except:
 # ##        print('value Error')
 # ##except:
@@ -365,6 +396,12 @@
 # ##    print('when exception is not occured')
 # ##finally:
 # ##    print('it always be executed')##
+
+
+
+
+
+
 ##try:
 # ##    #print(9/0)
 # ##    #print(abc)
@@ -388,6 +425,345 @@
 # ##except:
 # ##    print('Invalid age error handled')
 # ##print('Hello')
+
+
+
+
+
+#class InvalidAgeError(Exception):
+# ##    def __str__(self):
+# ##        return 'Invalid Age Error handeled '
+# ####print('Hi')
+# ##try:
+# ##    raise InvalidAgeError()
+# ##except InvalidAgeError as e:
+# ##    print(e)
+# ##print('Hello')
+
+
+
+#class InvalidAgeError(Exception):
+# ##    def __str__(self):
+# ##        return 'Invalid Age Error handeled '
+# ####print('Hi')
+# ##try:
+# ##    raise InvalidAgeError()
+# ##except Exception as e:
+# ##    print(e)
+# ##print('Hello')
+
+
+
+
+#class InvalidAgeError(Exception):
+##    def __str__(self):
+##        return 'Invalid Age Error nfwefe'
+##
+##print('Hi')
+##try:
+##    
+##    raise InvalidAgeError()
+##except Exception as e:
+##    print(e)
+##print('Hello')
+
+
+
+
+
+
+##class InvalidAgeError(Exception):
+##    def __str__(self):
+##        return 'Invalid Age Error'
+##
+##print('Hi')
+##try:
+##    
+##    raise InvalidAgeError()
+##except InvalidAgeError as e:
+##    print(e)
+##print('Hello')
+
+
+
+
+
+#class InvalidAgeError(Exception):
+##    msg='Invalid Age Error jkqbdwbd'
+##    def __init__(self):
+##        super().__init__(self.msg)
+##
+##print('Hi')
+##try:
+##    
+##    raise InvalidAgeError()
+##except Exception as e:
+##    print(e)
+##print('Hello')
+
+
+
+
+
+##class InvalidAgeError(Exception):
+##    def __str__(self):
+##        return 'Invalid Age Error detected'
+##    
+##
+##age=int(input('Enter Your age: '))
+##if age>=18:
+##    print('You can vote')
+##else:
+##    try:
+##        raise InvalidAgeError()
+##    except Exception as e:
+##        print(e)
+##
+
+
+
+
+
+#try:
+# ##    print('thane')
+# ##    try:
+# ##        print(int('demo'))
+# ##    except Exception as e:
+# ##        print(e)
+# ##    print('mumbai')
+# ##    try:
+# ##print(abc)
+# ##    except:
+# ##        print('exception handeled')
+# ##except:
+# ##    print('Outer exception handeled')####
+
+
+
+
+##k=[]
+# ##try:
+# ##    print(k[2])
+# ##    try:
+# ##        print(int('demo'))
+# ##    except Exception as e:
+# ##        print(e)
+# ##    print('mumbai')
+# ##    try:
+# ##        print(abc)
+# ##    except:
+# ##        print('exception handeled')
+# ##except:
+# ##    print('Outer exception handeled')##
+
+
+
+
+
+#k=[11,22,33,44]##try:##    print(k[1])##    try:##        print(int('demo'))##    except Exception as e:##        print(e)##    print('mumbai')##    try:##        print(abc)##    except:##        print('exception handeled')##except:##    print('Outer exception handeled')####else:##    print('it will execute when exception is not occured')
+
+
+
+
+#k=[]##try:##    print(k[1])##    try:##        print(int('demo'))##    except Exception as e:##        print(e)##    print('mumbai')##    try:##        print(abc)##    except:##        print('exception handeled')##except:##    print('Outer exception handeled')####else:##    print('it will execute when exception is not occured')
+
+
+
+#k=[11,22]##try:##    print(k[1])##    try:##        print(int('demo'))##    except Exception as e:##        print(e)##    print('mumbai')##    try:##        print(abc)##    except:##        print('exception handeled')##except:##    print('Outer exception handeled')####else:##    print('it will execute when exception is not occured')##finally:##    print('it always be executed')####
+
+
+
+#try:
+##    #print(int('demo'))
+##    #print(abc)
+##    print(9/0)
+##
+##except (ValueError,NameError,ZeroDivisionError) as e:
+##    print(e)
+
+
+
+#print('thane')
+##
+##raise NameError
+##
+##    
+##print('mumbai')
+
+
+
+
+##print('thane')##try:##    raise NameError##except:##    print('exception handeled')##print('mumbai')
+
+
+
+
+#class InvalidAgeError(Exception):
+##    pass
+##
+##
+##print('thane')
+##
+##raise InvalidAgeError()
+##
+##print('mumbai')
+
+
+
+
+
+##class InvalidAgeError(Exception):
+##    pass
+##
+##
+##print('thane')
+##
+##try:
+##    raise InvalidAgeError()
+##except:
+##    print('Invalid Age Error')
+##
+##print('mumbai')
+##
+##
+
+
+
+##class InvalidAgeError(Exception):
+##    def __str__(self):
+##        return 'invalid Age Error'
+##
+##
+##print('thane')
+##
+##try:
+##    raise InvalidAgeError()
+##except InvalidAgeError as e:
+##    print(e)
+##
+##print('mumbai')
+
+
+
+
+
+#class InvalidAgeError(Exception):
+##    def __str__(self):
+##        return 'invalid Age Error'
+##
+##
+##print('thane')
+##
+##try:
+##    raise InvalidAgeError()
+##except Exception as e:
+##    print(e)
+##
+##print('mumbai')
+
+
+
+
+
+
+##class InvalidAgeError(Exception):##    def __str__(self):##        return 'Invalid age detected Ypu can not vote'####age=int(input('Enter your age: '))##if(age>=18):##    print('You can vote')##else:##    try:##        raise InvalidAgeError()##    except Exception as e:##        print(e)##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

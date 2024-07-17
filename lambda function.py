@@ -133,10 +133,10 @@ print(filter_object)    '''
 
   ##################################################################
 
-
+ 
  #2) Map function :map is also a higher order function ,it applies specific function on each element
 
-
+ 
 
 '''n=[1,2,3,4,5,6]
 

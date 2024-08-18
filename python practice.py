@@ -1,0 +1,1 @@
+print('AShish'*4)

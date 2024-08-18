@@ -91,7 +91,7 @@
 # ##    #print(2/0)
 # ##    print(int('demo'))
 # ##    print('Dadar')
-# ##   ##except Exception as e:
+# ##   ##except Exception as e: 
 # ##    print('exception handeled',e)
 # ####except ZeroDivisionError as e:
 # ##    print(e)####

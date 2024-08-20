@@ -22,7 +22,7 @@ def task():
             updated_val=input('Enter the task name you want to update=')
             if updated_val in tasks:
                 up = input('Enter new task=')
-                ind=tasks.index(updated_val)  # 2
+                ind=tasks.index(updated_val)  #2
                 tasks[ind] = up
                 print('Updated task {up}')
  
